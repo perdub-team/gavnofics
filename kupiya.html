@@ -7,10 +7,19 @@
         <link rel="stylesheet" type="text/css" href="styles.css"/>
     </head>
     <body>
-        
+        <div class="topUAHeader">
+            <h1 id="NOW!">КУПИ УА</h1>
+        </div>
     </body>
     <script>
-        document.body.style.backgroundColor = "#123456"
+        function gs(l,s){
+    let res="";
+    for(let q = 0;q<s;q++){
+        res+=l.charAt(Math.floor(Math.random() * l.length));
+    }
+    return res;
+}       addEventListener("mousemove", (q)=>{document.body.style.backgroundColor = '#'+gs("0123456789ABCDEF",6); document.getElementById("NOW!").style.color = '#'+gs("0123456789ABCDEF",6)})
+        document.body.style.backgroundColor = '#'+gs("0123456789ABCDEF",6)
     </script>
     <script src="hii.js"></script>
 </html>

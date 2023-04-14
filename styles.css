@@ -1,3 +1,10 @@
 .topHeader{
     text-align: center;
 }
+.bottomCenter{
+    
+}
+.topUAHeader{
+    text-align: center;
+    background-color: currentColor;
+}
